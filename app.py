@@ -50,7 +50,7 @@ def retrieve_memory(query):
     return "\n".join([d.page_content for d in docs])
 
 # Streamlit UI
-st.title("🧠 Personal AI Assistant")
+st.title(" Personal AI Assistant")
 
 query = st.text_input("Ask me anything")
 
@@ -60,4 +60,5 @@ if st.button("Run"):
         response = agent.run(query)
         store_memory(response)
         st.success("Response:")
+
         st.write(response)
