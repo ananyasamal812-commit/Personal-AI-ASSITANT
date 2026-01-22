@@ -1,7 +1,7 @@
 # Personal-AI-ASSITANT
 
 An autonomous Personal AI Assistant capable of executing multi-step tasks such as data retrieval,
-note generation, and summarization using LangChain Agents, FAISS memory, and CrewAI.
+note generation and summarization using LangChain Agents, FAISS memory and CrewAI.
 
 ##  Features
 - Context-aware reasoning using LangChain Agents
@@ -13,7 +13,6 @@ note generation, and summarization using LangChain Agents, FAISS memory, and Cre
 ##  Tech Stack
 - Python
 - LangChain
-- OpenAI API
 - FAISS
 - CrewAI
 - Streamlit
